@@ -27,7 +27,7 @@ public DBConnect()
         int n = sc.nextInt();
         try
         {
-            PreparedStatement ps = con.prepareStatement("insert into persons(name,age,phno) values(?,?,?)");
+            PreparedStatement ps = con.prepareStatement("insert into customer(name,age,phno) values(?,?,?)");
             System.out.println("Enter data:");
             while(n!=0)
             {
